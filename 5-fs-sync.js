@@ -10,9 +10,9 @@ console.log(first)
 console.log(second)
 
 writeFileSync(
-  "./content/result-sync.txt",
-  `Here is the result : '${first}', '${second}'\n`,
-  { flag: "a" }
+    "./content/result-sync.txt",
+    `Here is the result : '${first}', '${second}'\n`,
+    { flag: "a" }
 )
 console.log("done with this task")
 console.log("starting next task...")

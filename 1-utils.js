@@ -1,4 +1,4 @@
 const sayHi = (name) => {
-  console.log(`Hi ${name}`)
+    console.log(`Hi ${name}`)
 }
 module.exports = sayHi
